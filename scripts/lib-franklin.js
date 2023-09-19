@@ -660,7 +660,20 @@ export function loadFooter(footer) {
 }
 
 /**
- * Setup block utils.
+ * Loads a block named 'tomTest' into footer
+ * @param tomTest footer element
+ * @returns {Promise}
+ */
+export function loadTomTest(tomTest) {
+  const tomTestBlock = buildBlock('tomTest', '');
+  tomTest.append(tomTestBlock);
+  decorateBlock(tomTestBlock);
+  return loadBlock(tomTestBlock);
+}
+
+
+/**
+ *Setup block utils.
  */
 export function setup() {
   window.hlx = window.hlx || {};
