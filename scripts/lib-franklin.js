@@ -659,18 +659,6 @@ export function loadFooter(footer) {
   return loadBlock(footerBlock);
 }
 
-/**
- * Loads a block named 'tomTest' into footer
- * @param tomTest footer element
- * @returns {Promise}
- */
-export function loadTomTest(tomTest) {
-  const tomTestBlock = buildBlock('tomTest', '');
-  tomTest.append(tomTestBlock);
-  decorateBlock(tomTestBlock);
-  return loadBlock(tomTestBlock);
-}
-
 
 /**
  *Setup block utils.
