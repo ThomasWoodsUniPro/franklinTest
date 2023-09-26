@@ -1,0 +1,32 @@
+.toggle-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.toggle.block > div {
+  width: 335px;
+  border: 2px solid #FFD976;
+  border-radius: 8px;
+  display: flex;
+  padding: 5px;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  flex: 1;
+  border-radius: 8px;
+  height: 47px;
+}
+
+.toggle-button.active {
+  background-color: #FFF;
+  color: #485F4B;
+}
+
+.active {
+  background-color: #FDCDC1;
+}

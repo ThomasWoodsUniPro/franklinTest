@@ -1,0 +1,122 @@
+.symptoms-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+.symptoms-wrapper {
+  overflow-x: auto;
+}
+
+@media (min-width: 375px) {
+  .symptoms-wrapper::-webkit-scrollbar {
+    border: 2px solid #FFD976;
+    border-radius: 10px;
+    height: 16px;
+  }
+
+  .symptoms-wrapper::-webkit-scrollbar-thumb {
+    background-color: #FFD976;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+    border-radius: 10px;
+  }
+}
+
+.symptoms-box {
+  height: 157px;
+  min-width: 169px;
+  max-width: 169px;
+  padding: 24px;
+  color: #FFF;
+}
+
+.icon-hot {
+  width: 46px;
+  height: 45px;
+  background-image: url("../../icons/hot.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border-hot {
+  border-top: 5px solid #C7D9A7;
+  border-left: 5px solid #C7D9A7;
+  border-bottom: 10px solid #C7D9A7;
+  border-right: 10px solid #C7D9A7;
+}
+
+.icon-problems {
+  width: 46px;
+  height: 45px;
+  background-image: url("../../icons/problems.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border-problems {
+  border-top: 5px solid #FDCDC1;
+  border-left: 5px solid #FDCDC1;
+  border-bottom: 10px solid #FDCDC1;
+  border-right: 10px solid #FDCDC1;
+}
+
+.icon-sleep {
+  width: 46px;
+  height: 45px;
+  background-image: url("../../icons/sleep.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border-sleep {
+  border-top: 5px solid #FFD976;
+  border-left: 5px solid #FFD976;
+  border-bottom: 10px solid #FFD976;
+  border-right: 10px solid #FFD976;
+}
+
+.icon-pain {
+  width: 46px;
+  height: 45px;
+  background-image: url("../../icons/pain.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border-pain {
+  border-top: 5px solid #C7D9A7;
+  border-left: 5px solid #C7D9A7;
+  border-bottom: 10px solid #C7D9A7;
+  border-right: 10px solid #C7D9A7;
+}
+
+.icon-dissociated {
+  width: 46px;
+  height: 45px;
+  background-image: url("../../icons/dissociated.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border-dissociated {
+  border-top: 5px solid #FDCDC1;
+  border-left: 5px solid #FDCDC1;
+  border-bottom: 10px solid #FDCDC1;
+  border-right: 10px solid #FDCDC1;
+}
+
+.icon-scattered {
+  width: 46px;
+  height: 45px;
+  background-image: url("../../icons/scattered.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border-scattered {
+  border-top: 5px solid #FFD976;
+  border-left: 5px solid #FFD976;
+  border-bottom: 10px solid #FFD976;
+  border-right: 10px solid #FFD976;
+}

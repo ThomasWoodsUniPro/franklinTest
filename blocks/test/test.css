@@ -1,3 +1,17 @@
-div {
-    background: pink;
+dl {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt:after {
+    content: ':'
 }

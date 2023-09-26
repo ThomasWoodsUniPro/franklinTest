@@ -1,0 +1,35 @@
+@import '../../styles/colors.scss';
+
+
+.toggle-wrapper {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.toggle.block > div{
+    width: 335px;
+    border: 2px solid $yellow;
+    border-radius: 8px;
+    display: flex;
+    padding: 5px;
+}
+
+.toggle-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    flex: 1;
+    border-radius: 8px;
+    height:47px;
+
+    &.active{
+        background-color: $white;
+        color: $dark-green;
+    }
+}
+
+.active {
+    background-color: $pink;
+}
