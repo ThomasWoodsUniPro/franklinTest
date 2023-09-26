@@ -1,12 +1,12 @@
 @import '../../styles/colors.scss';
 
-.toggle-wrapper {
+.symptoms-toggle-wrapper {
 width: 100%;
 display: flex;
 justify-content: center;
 }
 
-.toggle.block > div{
+.symptoms-toggle.block > div{
     width: 335px;
     border: 2px solid $yellow;
     border-radius: 8px;

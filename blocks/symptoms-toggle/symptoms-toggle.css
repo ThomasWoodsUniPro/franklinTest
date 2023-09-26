@@ -1,10 +1,10 @@
-.toggle-wrapper {
+.symptoms-toggle-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.toggle.block > div {
+.symptoms-toggle.block > div {
   width: 335px;
   border: 2px solid #FFD976;
   border-radius: 8px;
