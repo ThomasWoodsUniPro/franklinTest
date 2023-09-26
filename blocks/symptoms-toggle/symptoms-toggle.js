@@ -1,5 +1,5 @@
 export default function decorate(block) {
-  const options = document.querySelector('.toggle.block');
+  const options = document.querySelector('.symptoms-toggle.block');
   const innerDiv = options.querySelector('div');
 
   const toggle = document.createElement('div');
