@@ -4,9 +4,12 @@ $symptoms_map:(
     hot: $light-green, problems: $pink, sleep: $yellow, pain: $light-green, dissociated: $pink, scattered: $yellow
 );
 
-@mixin symptoms_icon() {
+@mixin symptoms_icon($file) {
     width: 46px;
     height: 45px;
+    background-image: url('../../icons/#{$file}.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .symptoms-container {
@@ -43,7 +46,7 @@ $symptoms_map:(
 
 @each $symptom-name, $symptom-color in $symptoms_map {
     .icon-#{$symptom-name}{
-        @include symptoms_icon(); 
+        @include symptoms_icon($symptom-name); 
     }
 
     .border-#{$symptom-name}{

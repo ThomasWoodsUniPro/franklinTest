@@ -1,0 +1,7 @@
+.expanded-info-card-block {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 70% 30%;
+  grid-gap: 10px;
+  background: pink;
+}

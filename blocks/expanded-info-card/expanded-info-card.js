@@ -1,18 +1,15 @@
 export default function decorate(block) {
-  const infoCards = document.querySelector('.section.expanded-info-card-container');
-  const infoContainer = document.createElement('div');
-  infoContainer.classList.add('info-container');
+  const container = document.querySelector('.expanded-info-card.block');
+  const newContainer = document.createElement('div');
 
-  [...infoCards.children].forEach((childDiv) => {
-    const [card] = [...childDiv.children];
-    const infoDiv = document.createElement('div');
-    infoDiv.innerHTML = card.innerHTML;
+  const sections = document.querySelectorAll('.expanded-info-card.block > div');
 
-    infoDiv.classList.add('info-card');
+  sections[0].classList.add('section1');
+  sections[1].classList.add('section2');
+  sections[2].classList.add('section3');
 
-    infoContainer.appendChild(infoDiv);
-  });
+  newContainer.innerHTML = container.outerHTML;
 
   block.textContent = '';
-  block.append(infoCards);
+  block.append(newContainer);
 }

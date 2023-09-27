@@ -34,9 +34,6 @@
 .icon-hot {
   width: 46px;
   height: 45px;
-  background-image: url("../../icons/hot.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .border-hot {
@@ -49,9 +46,6 @@
 .icon-problems {
   width: 46px;
   height: 45px;
-  background-image: url("../../icons/problems.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .border-problems {
@@ -64,9 +58,6 @@
 .icon-sleep {
   width: 46px;
   height: 45px;
-  background-image: url("../../icons/sleep.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .border-sleep {
@@ -79,9 +70,6 @@
 .icon-pain {
   width: 46px;
   height: 45px;
-  background-image: url("../../icons/pain.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .border-pain {
@@ -94,9 +82,6 @@
 .icon-dissociated {
   width: 46px;
   height: 45px;
-  background-image: url("../../icons/dissociated.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .border-dissociated {
@@ -109,9 +94,6 @@
 .icon-scattered {
   width: 46px;
   height: 45px;
-  background-image: url("../../icons/scattered.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .border-scattered {

@@ -4,12 +4,9 @@ $treatment_map:(
     estrogen: $light-green, estrogenplus: $pink, conjugated: $yellow, other: $light-green, local: $pink, nonhormonal: $yellow
 );
 
-@mixin treatment_icon($file) {
+@mixin treatment_icon() {
     width: 46px;
     height: 45px;
-    background-image: url('../../icons/#{$file}.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .treatment-container {
@@ -46,7 +43,7 @@ $treatment_map:(
 
 @each $treatment-name, $treatment-color in $treatment_map {
     .icon-#{$treatment-name}{
-        @include treatment_icon($treatment-name); 
+        @include treatment_icon(); 
     }
 
     .border-#{$treatment-name}{
